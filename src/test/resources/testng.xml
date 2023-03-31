@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  
+  <test name="FlipKart">
+		<parameter name="username" value="shubhamk116@gmail.com"></parameter>
+		<parameter name="password" value="shubham@2000"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.exploration.Exploration3">
+			</class>
+		</classes>
+	</test>
+	  <test name="DragAndDrop">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.exploration.Exploration2">
+			</class>
+		</classes>
+	</test>
+	
+	  <test name="Select">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.exploration.Exploration1">
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
