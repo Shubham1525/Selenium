@@ -22,6 +22,7 @@ public class BaseTest {
 	@Parameters({ "browser" })
 	@BeforeMethod(alwaysRun = true)
 	public void setUp(Method method, @Optional("chrome") String browser) {
+		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		log = LogManager.getLogger(testName);
 
 		BrowserDriverFactory factory = new BrowserDriverFactory(browser, log);
